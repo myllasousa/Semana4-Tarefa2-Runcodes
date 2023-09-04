@@ -1,0 +1,5 @@
+ano = int(input(""))
+mes = int(input(""))
+dia = int(input(""))
+idade_dias = dia + (mes * 30) + (ano * 365)
+print(idade_dias)
